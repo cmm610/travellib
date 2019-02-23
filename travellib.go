@@ -70,7 +70,7 @@ var ctx context.Context
 var client *firestore.Client
 
 func InitFirestore() (firestore.Client, context.Context) {
-	projectID := "traveller-2"
+	projectID := "traveller-3"
 	if ctx == nil {
 		ctx = context.Background()
 	}
