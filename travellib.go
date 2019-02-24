@@ -12,9 +12,9 @@ type TripInfo struct {
 	Name string `json:"name"`
 	Activities []Activity `json:"activities"`
 	Lodging []Lodging `json:"lodging"`
-	Uid string
-	CreatedAt int64
-	UpdatedAt int64
+	Uid string `json:"uid"`
+	CreatedAt int64 `json:"createdAt"`
+	UpdatedAt int64 `json:"updatedAt"`
 }
 type User struct {
 	Uid string `json:"uid"`
