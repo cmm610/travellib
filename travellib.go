@@ -26,7 +26,7 @@ type Trip struct {
 	Name string `json:"name"`
 }
 type FullUserInfo struct {
-	CreatedAt string `json:"createdAt"`
+	CreatedAt int64 `json:"createdAt"`
 	FirstName string `json:"firstName"`
 	LastName string `json:"lastName"`
 	Profile string `json:"profile"`
