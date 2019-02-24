@@ -18,7 +18,8 @@ type TripInfo struct {
 }
 type User struct {
 	Uid string `json:"uid"`
-	Name string `json:"name"`
+	FirstName string `json:"firstName"`
+	LastName string `json:"lastName"`
 }
 type Trip struct {
 	Uid string `json:"uid"`
@@ -31,7 +32,6 @@ type FullUserInfo struct {
 	Profile string `json:"profile"`
 	Email string `json:"email"`
 	Uid string `json:"uid"`
-	PhotoURL string `json:"photoURL"`
 	RefreshToken string `json:"refreshToken"`
 	EmailVerified bool`json:"emailVerified"`
 	IsAnonymous bool`json:"isAnonymous"`
